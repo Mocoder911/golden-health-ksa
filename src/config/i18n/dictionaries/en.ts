@@ -1,0 +1,81 @@
+export default {
+  nav: {
+    home: "Home",
+    about: "About Us",
+    services: "Services",
+    sourcing: "Global Sourcing",
+    trackRecord: "Track Record",
+    contact: "Contact",
+  },
+  hero: {
+    defaultTitle: "Premium Cosmetic Solutions",
+    defaultSubtitle: "Importing the world's finest formulas for the Saudi market",
+    cta: "Explore Our Services",
+    ctaSecondary: "View Track Record",
+  },
+  about: {
+    title: "About Golden Health",
+    yearsExperience: "Years of Excellence",
+    description:
+      "With over 45 years of proven expertise, Golden Health KSA is a trusted leader in importing high-end cosmetic and skincare formulas from the world's most innovative markets.",
+  },
+  services: {
+    title: "Our Services",
+    subtitle: "Comprehensive solutions for the cosmetic & skincare industry",
+  },
+  sourcing: {
+    title: "Global Sourcing Network",
+    subtitle: "We source from the world's leading cosmetic innovation hubs",
+  },
+  trackRecord: {
+    title: "Proven Delivery Track Record",
+    subtitle: "Successfully delivered shipments across the Kingdom",
+  },
+  contact: {
+    title: "Get in Touch",
+    subtitle: "Ready to partner with us? Send us your inquiry.",
+    companyName: "Company Name",
+    contactName: "Contact Name",
+    phone: "Phone Number",
+    email: "Email Address",
+    serviceType: "Service of Interest",
+    originCountry: "Country of Interest",
+    message: "Your Message",
+    send: "Send Inquiry",
+    sending: "Sending...",
+    success: "Inquiry sent successfully! We'll be in touch soon.",
+  },
+  footer: {
+    rights: "All rights reserved.",
+    quickLinks: "Quick Links",
+    contactUs: "Contact Us",
+    followUs: "Follow Us",
+  },
+  admin: {
+    login: {
+      title: "Admin Login",
+      email: "Email",
+      password: "Password",
+      submit: "Sign In",
+      error: "Invalid credentials",
+    },
+    dashboard: {
+      title: "Dashboard",
+      totalInquiries: "Total Inquiries",
+      totalOrders: "Delivered Orders",
+      totalServices: "Services",
+      totalSources: "Sourcing Countries",
+    },
+    common: {
+      save: "Save",
+      cancel: "Cancel",
+      delete: "Delete",
+      edit: "Edit",
+      add: "Add New",
+      actions: "Actions",
+      confirm: "Confirm",
+      search: "Search...",
+      noResults: "No results found",
+    },
+  },
+} as const;
