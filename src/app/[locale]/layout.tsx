@@ -1,6 +1,7 @@
 import React from "react";
 import { Geist, Geist_Mono } from "next/font/google";
 import { i18n, getDirection, type Locale } from "@/config/i18n/config";
+import ToastProvider from "@/components/ui/ToastProvider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -33,6 +34,7 @@ export default function LocaleLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-onyx text-text-primary">
+        <ToastProvider />
         {children}
       </body>
     </html>
